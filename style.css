@@ -1,0 +1,51 @@
+/*general*/
+@import url('https://fonts.googleapis.com/css2?family=Geist&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: "Geist", sans-serif;
+    font-weight: 400;
+}
+html {
+    scroll-behavior: smooth;
+}
+p {
+
+    color:rgb(85, 85, 85)
+}
+/*transition */
+a,.btn{
+    transition: all 300ms ease;
+}
+/*desktop nav*/
+nav, .nav-links{
+    display: flex;
+}
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+}
+.nav-links{
+    list-style: none;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+a{
+    text-decoration: none;
+    color: rgb(0,0,0);
+    text-decoration-color: white;
+}
+a:hover{
+    color: grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181,181,181);
+}
+.logo{
+    font-size: 2rem;
+    color: rgb(0,0,0);
+    font-family: "Poppins", sans-serif;
+}
+.logo:hover{
+    cursor: default;
+}
