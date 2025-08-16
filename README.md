@@ -1,0 +1,2 @@
+# My_Portfolio
+ A personal portfolio website built using HTML, CSS (vanilla), and JavaScript. This responsive and lightweight web project showcases my skills, projects, and contact information in a clean, user-friendly layout. Designed for performance and simplicity, the site emphasizes semantic HTML structure, modern CSS styling, and interactive JavaScript features—all without any external libraries or frameworks.
